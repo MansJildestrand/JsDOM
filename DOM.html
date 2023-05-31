@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Måns Jildestrand</title>
+    <link rel="stylesheet" href="DOM.css">
+</head>
+<body>
+    <script src="DOM.js"></script><!-- java program -->
+    <div id="header">
+        <h1 id="Måns">Måns är så sjukt cool och ingen är bättre än han!</h1>
+        <h3 id="time"></h3>
+        <img src="speed.jpg" alt="" id="bild">
+    </div>
+
+    <div id="button_alignment">
+        <div id="button_background">
+            <div class="column">
+                <button onclick="change_background()">Change Background</button>
+
+                <button onclick="good_vibes()">Måns</button>
+
+                <button onclick="time()">Time</button>
+            </div>
+            <div class="column">
+                <button onclick="change_picture()">Change picture</button>
+
+                <button onclick="hide_picture()">Hide picture</button>
+
+                <button onclick="show_picture()">Show picture</button>
+            </div>
+            <div class="column">
+                <button onclick="header()">Header</button>
+
+                <button onclick="remove_header()">Remove header</button>
+
+                <button onclick="show_header()">Show header</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- centrera innehållet på sidan -->
+    <div id="thanks_alignment">
+        <h3 id="thanks"></h3>
+    </div>
+
+</body>
+</html>
